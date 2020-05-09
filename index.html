@@ -12,6 +12,12 @@
       href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <script defer src="script.js"></script>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> -->
+
   </head>
 
   <body>
@@ -22,11 +28,18 @@
           <li>Age: 32</li>
           <li>Location: St.Helier, Jersey</li>
           <div id="bottom-list">
-            <li>Strenghts:</li>
-            <li>- patience</li>
-            <li>- commitment</li>
-            <li>- accuracy</li>
-            <li>- perseverance</li>
+            <h3 class="certificates">Certificates:</h3>
+            <img class="myImg" src="images/dj.jpg" alt="Digital Jersey Certificate of Graduation" style="width:100%;max-width: 290px"></a>
+            <img class="myImg" src="images/udem.jpg" alt="Certificate of Completion - Complete Web Developer in 2020" style="width:100%;max-width: 290px"></a>
+            <img class="myImg" src="images/web_design.png" alt="Certificate - Resposive Web Design" style="width:100%;max-width: 290px"></a>
+            <img class="myImg" src="images/javascript_algorithsms.png" alt="Certificate - Javascript Algorithms and Data Structures" style="width:100%;max-width: 290px"></a>
+            <img class="myImg" src="images/cert3.png" alt="Certificate - Front End Libraries" style="width:100%;max-width: 290px"></a>
+            
+            <div id="myModal" class="modal">
+              <span class="close">&times;</span>
+              <img class="modal-content" id="img01">
+              <div id="caption"></div>
+            </div>
           </div>
         </div>
 
@@ -130,7 +143,11 @@
           <span>HTML</span>
           <span>CSS</span>
           <span>SASS</span>
+          <span>BOOTSTRAP</span>
           <span>JAVASCRIPT</span>
+          <span>NODE.JS</span>
+          <span>EXPRESS</span>
+          <span>REACT</span>
           <span>JQUERY</span>
           <span>RUBY</span>
           <span>RUBY ON RAILS</span>
@@ -141,11 +158,13 @@
           <span>ZOOM</span>
           <span>TRELLO</span>
         </div>
-
-        <div class="copyright">
-          <p id="copyright">&copy; 2020 Gabriel Oarcas</p>
-        </div>
       </div>
     </div>
+
   </body>
+  <footer>
+    <div class="copyright">
+      <p id="copyright">&copy; 2020 Gabriel Oarcas</p>
+    </div>
+  </footer>
 </html>
