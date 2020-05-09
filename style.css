@@ -180,9 +180,10 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
 #copyright {
   margin-top: 80px;
-  width: 300px;
+  width: 260px;
   color: rgb(121, 121, 121);
 }
 
